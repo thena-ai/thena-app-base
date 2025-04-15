@@ -11,7 +11,7 @@ interface WebhookResponse {
 }
 
 @ApiTags("webhooks")
-@Controller("thena")
+@Controller()
 export class ThenaController {
   private readonly logger = new Logger(ThenaController.name);
 

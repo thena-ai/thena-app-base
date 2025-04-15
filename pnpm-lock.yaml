@@ -124,6 +124,9 @@ devDependencies:
   husky:
     specifier: ^9.1.7
     version: 9.1.7
+  istanbul-badges-readme:
+    specifier: ^1.9.0
+    version: 1.9.0
   jest:
     specifier: 29.3.1
     version: 29.3.1(@types/node@18.11.18)(ts-node@10.0.0)
@@ -3807,6 +3810,11 @@ packages:
 
   /isexe@2.0.0:
     resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
+    dev: true
+
+  /istanbul-badges-readme@1.9.0:
+    resolution: {integrity: sha512-sD9lTsFajcfK07euJReQ0C9dy0VmXViMDJk67EZseGRC+jv+esxt5I3Viqoi1b43m5in5ek5b+0rpxJi41bJVw==}
+    hasBin: true
     dev: true
 
   /istanbul-lib-coverage@3.2.2:
