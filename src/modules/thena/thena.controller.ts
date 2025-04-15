@@ -1,16 +1,8 @@
-import {
-  Controller,
-  Post,
-  Body,
-  HttpStatus,
-  Headers,
-  Logger,
-  BadRequestException,
-} from "@nestjs/common";
+import { Controller, Post, Body, HttpStatus, Logger } from "@nestjs/common";
 import { ApiTags, ApiOperation, ApiResponse } from "@nestjs/swagger";
-import { ThenaService } from "./thena.service";
 import { ConfigService } from "@nestjs/config";
 import { firstValueFrom } from "rxjs";
+import { ThenaService } from "./thena.service";
 
 interface WebhookResponse {
   status: string;
