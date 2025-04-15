@@ -132,7 +132,7 @@ function customLogLevel(req, res, err) {
               },
             },
             // Set HTTP context
-            customProps: (req, res) => {
+            customProps: (_req, _res) => {
               // Get request ID from rTracer
               const requestId = rTracer.id();
               return {
