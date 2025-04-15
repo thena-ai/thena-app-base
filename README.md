@@ -2,9 +2,11 @@
 
 A NestJS-based scaffold for building applications on the Thena platform. This scaffold provides a production-ready setup for handling Thena platform webhooks through a queue-based architecture.
 
-[![Coverage](https://img.shields.io/badge/Coverage-11.94%25-red.svg)](https://github.com/amyth/scaffold)
-[![Coverage](https://img.shields.io/badge/Coverage%20(Functions)-16.66%25-red.svg)](https://github.com/amyth/scaffold)
-[![Coverage](https://img.shields.io/badge/Coverage%20(Lines)-11.81%25-red.svg)](https://github.com/amyth/scaffold)
+[![Coverage Statements](https://img.shields.io/badge/Coverage%20(Statements)-11.94%25-red.svg)](https://github.com/thena-ai/thena-app-base)
+[![Coverage Functions](https://img.shields.io/badge/Coverage%20(Functions)-16.66%25-red.svg)](https://github.com/thena-ai/thena-app-base)
+[![Coverage Lines](https://img.shields.io/badge/Coverage%20(Lines)-11.81%25-red.svg)](https://github.com/thena-ai/thena-app-base)
+
+> **Note**: The core Thena module (controller and service) has 100% test coverage. The overall coverage numbers include boilerplate code that can be customized based on your needs.
 
 ## Overview
 
